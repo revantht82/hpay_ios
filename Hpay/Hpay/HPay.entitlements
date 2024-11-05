@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:hpaymerchant-d1.fourwordsalluppercase.com</string>
+		<string>applinks:hpaymerchant-d2.fourwordsalluppercase.com</string>
+		<string>applinks:hpaymerchant-q31.fourwordsalluppercase.com</string>
+		<string>applinks:hpaymerchant-s3.himalaya.exchange</string>
+		<string>applinks:hpaymerchant-pt.himalaya.exchange</string>
+		<string>applinks:hpaymerchant.himalaya.exchange</string>
+		<string>applinks:hpaymerchant-p4.himalaya.exchange</string>
+		<string>applinks:hpaymerchant-s0.himalaya.exchange</string>
+	</array>
+</dict>
+</plist>

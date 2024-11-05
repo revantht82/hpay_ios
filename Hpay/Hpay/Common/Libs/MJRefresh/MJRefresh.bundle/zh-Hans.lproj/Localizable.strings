@@ -1,0 +1,13 @@
+"MJRefreshAutoFooterIdleText" = "点击或向上拉以加载更多";
+"MJRefreshAutoFooterNoMoreDataText" = "没有更多数据";
+"MJRefreshAutoFooterRefreshingText" = "正在加载...";
+"MJRefreshBackFooterIdleText" = "上拉加载更多";
+"MJRefreshBackFooterNoMoreDataText" = "没有更多数据";
+"MJRefreshBackFooterPullingText" = "放开以加载更多";
+"MJRefreshBackFooterRefreshingText" = "正在加载...";
+"MJRefreshHeaderDateTodayText" = "今天";
+"MJRefreshHeaderIdleText" = "下拉刷新";
+"MJRefreshHeaderLastTimeText" = "最后更新：";
+"MJRefreshHeaderNoneLastDateText" = "没有找到相关记录";
+"MJRefreshHeaderPullingText" = "放开以刷新";
+"MJRefreshHeaderRefreshingText" = "正在加载...";

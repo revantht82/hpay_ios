@@ -1,0 +1,48 @@
+//
+//  Hpay-Prefix.pch
+//  Hpay
+//
+//  Created by Olgu Sirman on 27/01/2021.
+//  Copyright © 2021 Himalaya. All rights reserved.
+//
+
+#ifndef Hpay_Prefix_pch
+#define Hpay_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "FPNetWorkReasonCode.h"
+#import "AppColor.h"
+#import "AppGlobalConfig.h"
+#import "AppFontSize.h"
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import "AppNetApi.h"
+#import "AppEnum.h"
+#import "MJRefresh.h"
+#import "AppNotificationCenter.h"
+#import "MBProgressHUD+HUD.h"
+#import "UIView+Extension.h"
+#import "GLCNetworkRequest.h"
+#import "User.h"
+#import "HCIdentityUser.h"
+#import "GCUserManager.h"
+#import "UIButton+Extension.h"
+#import "UITextField+Extension.h"
+#import "MJExtension.h"
+#import "UIColor+Extension.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import <UINavigationController+CFYNavigationBarTransition_Public.h>
+#import <InputKit.h>
+#import "HCLogger.h"
+#import <SAMKeychain/SAMKeychain.h>
+#import "UIImage+Extension.h"
+#import "NSDate+Extension.h"
+#import "UIViewController+ViewStateHandling.h"
+#import "UIViewController+Alert.h"
+#import "AlertActionItem.h"
+#import "UIView+ThemeManager.h"
+#import "UIViewController+ThemeManager.h"
+
+// Swift
+#endif /* Hpay_Prefix_pch */

@@ -1,0 +1,29 @@
+//
+//  Mock.xcconfig
+//  Hpay
+//
+//  Created by Ugur Bozkurt on 23/08/2021.
+//  Copyright © 2021 Himalaya. All rights reserved.
+//
+
+#include "Base.xcconfig"
+
+//https://hpay-dev-hpay-api.dev.aws.himalaya.exchange
+//https://hpay-dev-common-sso.dev.aws.himalaya.exchange
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_DEV
+
+HPAY_API_BASE_URL = https:/$()/hpay-dev-hpay-api.dev.aws.himalaya.exchange/
+MERCHANT_API_BASE_URL = https:/$()/hpay-dev-hpay-merchant-api.dev.aws.himalaya.exchange/
+SSO_API_BASE_URL = https:/$()/hpay-dev-common-sso.dev.aws.himalaya.exchange/
+SSO_API_EXTRA_BASE_URL = https:/$()/hpay-dev-common-sso.dev.aws.himalaya.exchange/
+
+APP_SUFFIX = dev
+PRODUCT_BUNDLE_IDENTIFIER = $(PRODUCT_BUNDLE_IDENTIFIER).$(APP_SUFFIX)
+PRODUCT_DISPLAY_NAME = $(PRODUCT_DISPLAY_NAME) Dev
+
+AUTH_REDIRECT_URI = $(PRODUCT_BUNDLE_IDENTIFIER):/$(AUTH_REDIRECT_URI)
+AUTH_ISSUER = $(SSO_API_BASE_URL)
+AUTH_SCOPES = HpayApi IdentityServerApi HpayMerchantApi offline_access
+
+GOOGLESERVICE_INFO_PLIST_FILENAME = $(GOOGLESERVICE_INFO_PLIST_FILENAME).$(APP_SUFFIX)

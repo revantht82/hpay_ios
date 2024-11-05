@@ -1,0 +1,82 @@
+platform :ios, '13.0'
+use_frameworks!
+
+# Core pods versions
+$af_networking_version = '4.0.1'
+$masonry_version = '1.1.0'
+
+# utility pods versions
+$SAMKeychain_version = '1.5.3'
+$lottie_version = '2.5.3'
+$MBProgressHUD_version = '1.2.0'
+
+# UI pods versions
+$QMUIKit_version = '4.2.1'
+$YYText_version = '1.0.7'
+$JXCategoryView_version = '1.3.14'
+$CFYNavigationBarTransition_version = '1.3.2'
+$JXPagingView_version = '1.1.13'
+$InputKit_version = '1.1.15'
+
+def core_pods
+  pod 'AFNetworking', $af_networking_version
+  pod 'Masonry', $masonry_version
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Messaging'
+end
+
+def utility_pods
+  pod 'SAMKeychain', $SAMKeychain_version
+  pod 'MBProgressHUD', $MBProgressHUD_version
+  pod 'netfox', :configurations => ['Mock', 'Dev', 'Dev2', 'S0', 'S1', 'QA', 'Staging', 'PenTest', 'PreProduction']
+end
+
+def ui_pods
+  pod 'FDFullscreenPopGesture', '1.1'
+  pod 'JXCategoryView', $JXCategoryView_version
+  pod 'CFYNavigationBarTransition', $CFYNavigationBarTransition_version
+  pod 'JXPagingView/Pager' , $JXPagingView_version
+  pod 'InputKit', $InputKit_version
+  
+end
+
+target 'Hpay' do
+  inhibit_all_warnings!
+  
+  core_pods
+  utility_pods
+  ui_pods
+  
+  use_modular_headers!
+  
+  target 'HPayUITests' do
+      inherit! :complete
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      config.build_settings['BITCODE_GENERATION_MODE'] = 'bitcode'
+      config.build_settings['ENABLE_BITCODE'] = 'YES'
+    end
+  end
+  
+  installer.aggregate_targets.each do |target|
+    target.xcconfigs.each do |variant, xcconfig|
+      xcconfig_path = target.client_root + target.xcconfig_relative_path(variant)
+      IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+    end
+  end
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.base_configuration_reference.is_a? Xcodeproj::Project::Object::PBXFileReference
+        xcconfig_path = config.base_configuration_reference.real_path
+        IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+      end
+    end
+  end
+  
+  
+end

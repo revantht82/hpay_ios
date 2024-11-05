@@ -1,0 +1,42 @@
+{
+    "writeKey": "a7745454628476979140-49aa618e2904ae069cde1ed739439f9a731ff8206590add23edcf4169bb371d9",
+    "readKey": "a7745454628476979140-447ab50441c2a3af4135f3a3ac6c82e6692d8e8015b511401868e560f657db16",
+
+    "transformations": [
+        {
+            "name": "myPath",
+            "source": "${path}",
+            "operations": [
+                "substringBeforeLast: /",
+                "append: /${iosLprojFolder}"
+            ]
+        }
+    ],
+    "upload": {
+        "files": [
+            {
+                "type": "ios-strings",
+                "path": "${autodetectPath}",
+                "lang": "${autodetectLang}",
+                "pattern": "**.strings",
+                "excludes": [
+                    "./Pods/**", "Pods/**", "**/Pods/**"
+                ]
+            },
+            {
+                "type": "ios-stringsdict",
+                "path": "${autodetectPath}",
+                "lang": "${autodetectLang}",
+                "pattern": "**.stringsdict",
+                "excludes": [
+                    "./Pods/**", "Pods/**", "**/Pods/**"
+                ]
+            }
+        ]
+    },
+    "download": {
+        "files": "${myPath}/${file}",
+        "includeSourceLang": false,
+        "excludedLangs": ["zh-Hant"]
+    }
+}

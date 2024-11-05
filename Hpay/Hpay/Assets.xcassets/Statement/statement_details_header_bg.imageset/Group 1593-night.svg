@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="363" height="191" viewBox="0 0 363 191">
+  <defs>
+    <filter id="Subtraction_1" x="0" y="0" width="363" height="191" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#41435B" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1593" data-name="Group 1593" transform="translate(17.836 -308.001)">
+    <g transform="matrix(1, 0, 0, 1, -17.84, 308)" filter="url(#Subtraction_1)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" d="M-10574.836,2176h-327v-105.53a8.717,8.717,0,0,0,1,.057c4.411,0,8-3.291,8-7.338s-3.589-7.337-8-7.337a8.834,8.834,0,0,0-1,.057V2021h327v34.909a7.593,7.593,0,0,0-7,7.28,7.594,7.594,0,0,0,7,7.281V2176Z" transform="translate(10919.84 -2006)" fill="#41435B"/>
+    </g>
+    <line id="Line_1696" data-name="Line 1696" x2="307" transform="translate(11.664 365)" fill="none" stroke="#111432" stroke-width="0.5" stroke-dasharray="5"/> 
+  </g>
+</svg>

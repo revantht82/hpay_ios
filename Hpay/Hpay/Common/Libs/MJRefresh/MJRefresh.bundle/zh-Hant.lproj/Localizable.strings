@@ -1,0 +1,13 @@
+"MJRefreshAutoFooterIdleText" = "點擊或上拉載入更多";
+"MJRefreshAutoFooterNoMoreDataText" = "沒有更多數據";
+"MJRefreshAutoFooterRefreshingText" = "載入中...";
+"MJRefreshBackFooterIdleText" = "上拉載入更多";
+"MJRefreshBackFooterNoMoreDataText" = "沒有更多數據";
+"MJRefreshBackFooterPullingText" = "鬆開以載入更多。";
+"MJRefreshBackFooterRefreshingText" = "載入中...";
+"MJRefreshHeaderDateTodayText" = "今天";
+"MJRefreshHeaderIdleText" = "下拉以重新整理";
+"MJRefreshHeaderLastTimeText" = "最後更新：";
+"MJRefreshHeaderNoneLastDateText" = "沒有找到記錄";
+"MJRefreshHeaderPullingText" = "鬆開以重新整理";
+"MJRefreshHeaderRefreshingText" = "載入中...";

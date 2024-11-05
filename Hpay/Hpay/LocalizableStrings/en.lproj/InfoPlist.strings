@@ -1,0 +1,3 @@
+"NSCameraUsageDescription" = "Enable camera permissions to use photo capture and QR code scanning";
+"NSContactsUsageDescription" = "Enable phone contacts permission to select phone numbers for seamless transfers using Himalaya Pay";
+"NSFaceIDUsageDescription" = "Your PIN will be securely stored on this device, allowing you to access the app using biometric authentication";

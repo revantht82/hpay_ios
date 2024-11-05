@@ -1,0 +1,14 @@
+"MJRefreshAutoFooterIdleText" = "Tap or pull up to load more";
+"MJRefreshAutoFooterNoMoreDataText" = "No more data";
+"MJRefreshAutoFooterRefreshingText" = "Loading...";
+"MJRefreshBackFooterIdleText" = "Pull up to load more";
+"MJRefreshBackFooterNoMoreDataText" = "No more data";
+"MJRefreshBackFooterPullingText" = "Release to load more.";
+"MJRefreshBackFooterRefreshingText" = "Loading...";
+"MJRefreshHeaderDateTodayText" = "Today";
+"MJRefreshHeaderIdleText" = "Pull down to refresh";
+"MJRefreshHeaderLastTimeText" = "Last updated: ";
+"MJRefreshHeaderNoneLastDateText" = "No Record Found";
+"MJRefreshHeaderPullingText" = "Release to refresh";
+"MJRefreshHeaderRefreshingText" = "Loading...";
+

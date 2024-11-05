@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VerifyPinViewController">
+            <connections>
+                <outlet property="bioButton" destination="lVF-dz-XWS" id="WiG-4I-QJx"/>
+                <outlet property="collectionView" destination="N2u-3n-ybT" id="Nhv-yE-Qe2"/>
+                <outlet property="hintLabel" destination="J0F-0X-5hY" id="TGU-jE-vFk"/>
+                <outlet property="textField" destination="eJf-cX-JrC" id="t8W-95-GVM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="OuU-M2-vbR">
+                    <rect key="frame" x="15" y="108" width="384" height="110"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="62d-xD-e3x">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0F-0X-5hY">
+                                    <rect key="frame" x="0.0" y="0.0" width="384" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgX-Ts-B4a">
+                            <rect key="frame" x="0.0" y="80" width="384" height="30"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="N2u-3n-ybT">
+                                    <rect key="frame" x="62" y="0.0" width="260" height="30"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="260" id="Gki-mk-Vxc"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZP1-qd-EiE">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                </collectionView>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJf-cX-JrC" customClass="HCAmountTextField">
+                                    <rect key="frame" x="65" y="0.0" width="254" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="eJf-cX-JrC" secondAttribute="trailing" constant="65" id="3oD-g1-yMG"/>
+                                <constraint firstItem="eJf-cX-JrC" firstAttribute="leading" secondItem="dgX-Ts-B4a" secondAttribute="leading" constant="65" id="4XZ-Qw-b7z"/>
+                                <constraint firstItem="N2u-3n-ybT" firstAttribute="centerX" secondItem="dgX-Ts-B4a" secondAttribute="centerX" id="Dyz-1K-e2A"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Max-rG-4Iw"/>
+                                <constraint firstItem="N2u-3n-ybT" firstAttribute="height" secondItem="dgX-Ts-B4a" secondAttribute="height" id="Nvl-kg-KlB"/>
+                                <constraint firstAttribute="bottom" secondItem="eJf-cX-JrC" secondAttribute="bottom" id="Obi-wt-0jp"/>
+                                <constraint firstItem="N2u-3n-ybT" firstAttribute="top" secondItem="dgX-Ts-B4a" secondAttribute="top" id="Rhb-iS-V2Q"/>
+                                <constraint firstAttribute="height" constant="30" id="iFX-XW-ba2"/>
+                                <constraint firstItem="eJf-cX-JrC" firstAttribute="top" secondItem="dgX-Ts-B4a" secondAttribute="top" id="kyy-GI-kJf"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVF-dz-XWS">
+                    <rect key="frame" x="82" y="238" width="250" height="34.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="wwF-mi-daK"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Use Biometric Authentication"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="biometric.tryagain.button"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="useBiometricPressed:" destination="-1" eventType="touchUpInside" id="nUy-iT-rgN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fm2-Dy-nMS"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="lVF-dz-XWS" firstAttribute="top" secondItem="OuU-M2-vbR" secondAttribute="bottom" constant="20" id="FIM-Fq-tk5"/>
+                <constraint firstItem="OuU-M2-vbR" firstAttribute="leading" secondItem="fm2-Dy-nMS" secondAttribute="leading" constant="15" id="Pe0-aJ-SQd"/>
+                <constraint firstItem="fm2-Dy-nMS" firstAttribute="trailing" secondItem="OuU-M2-vbR" secondAttribute="trailing" constant="15" id="jSg-a1-sAL"/>
+                <constraint firstItem="OuU-M2-vbR" firstAttribute="top" secondItem="fm2-Dy-nMS" secondAttribute="top" constant="60" id="kj1-VJ-FK5"/>
+                <constraint firstItem="lVF-dz-XWS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qG9-gc-8XG"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="85.714285714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

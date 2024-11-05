@@ -1,0 +1,487 @@
+//A
+"ACCOUNT_NOT_EXISTS" = "This account does not exist.";
+"Actual_Purchase" = "Actual Purchase";
+"Approve" = "Approve";
+"Available_Amount" = "Available Amount";
+"Available_Balance" = "Available Balance";
+
+"abnomal_currency" = "This token is abnormal and this function is temporary unavailable. Please contact our customer service if you have question.";
+"address" = "Address";
+"alert"="Alert";
+"all" = "All";
+"amount" = "Amount";
+"amount_received" = "Amount Received";
+"amount_to_request" = "Amount to Request";
+
+//B
+"be_sure_to_back_up_your_password_properly" = "Be sure to back up your PIN properly";
+"bind_email" = "Require binding your email";
+"bind_phone" = "Require binding your cellphone";
+"buy_sell_token" = "Buy/Sell Token";
+"biometric.ivite.alert.title" = "Biometric Authentication";
+"biometric.ivite.alert.desc" = "Enable biometric authentication for secure access to Himalaya Pay without a PIN.";
+"biometric.ivite.alert.cancel" = "Skip";
+"biometric.ivite.alert.okay" = "Enable";
+
+"biometric.turnedoff.alert.title" = "Enhance Your Security with Face ID";
+"biometric.turnedoff.alert.desc" = "To fortify your security, you'll want to set up Face ID. It's a simple and fast process. Click 'configure' to get started.";
+"biometric.turnedoff.alert.cancel" = "Close";
+"biometric.turnedoff.alert.okay" = "Go to Settings";
+
+"biometric.tryagain.button" = "Use Biometric Authentication";
+"biometric.unavailable.alert.title" = "Biometric Authentication is unavailable";
+"biometric.unavailable.alert.okay" = "Okay";
+"biometric.general.error" = "This device does not support Biometric Authentication";
+"biometric.notenrolled.title" = "Configure Your Device and App for Face ID";
+"biometric.notenrolled.error" = "To enable Face ID for enhanced security, you'll need to configure it in both your device settings and within our app. First, enable Face ID in your device settings, and then return here to complete the setup process";
+"biometric.notenrolled.alert.configure" = "Configure";
+
+//C
+"Cancel" = "Cancel";
+"Close" = "Close";
+"Continue" = "Continue";
+"Currency" = "Currency";
+
+"camera_permission_error" = "Failed to activate camera, please check permission";
+"change_success" = "Change completed";
+"commission" = "Transaction Fee";
+"common" = "Common";
+"complete" = "Complete";
+"completed" = "Completed";
+"confirm" = "Confirm";
+"confirm_to_withdraw" = "Confirm to withdraw";
+"confirmation_times" = "Confirmation Times";
+"contact" = "Contact";
+"copy" = "Copy";
+"copy_link" = "Copy Link";
+"copy_success" = "Copy Success";
+"currency" = "Currency";
+"current_exchange_rate" = "Current Exchange Rate";
+"customer_service_url" = "https://himalaya-exchange.zendesk.com/hc/en-gb/categories/360003360498-Himalaya-Pay";
+
+"create_secure_alias" = "Create a Secure Alias";
+"create_secure_alias_tips" = "Creating Your Secure Alias:
+
+1. Your secure alias must be between 6 and 12 characters.
+2. Only alphabetic (A-Z) and numeric characters (0-9) and one special character, either @ or _ can be used.
+3. Your secure alias must begin with a letter and contain at least one number.";
+
+//D
+"Dark" = "Dark";
+"Dear_Sir" = "Dear Customer,\n\n
+You have just received a payment request on Himalaya Pay. Please see the details below:\n\n
+Request from: %@\n
+Request amount: %@\n
+Tap the following link to view and accept the payment request:\n
+%@\n
+Alternatively, you can scan the attached QR code with your phone.\n
+Before you proceed to the payment, please double check who you’re paying as well as the payment amount. We will never call you without letting you know in advance by email.\n
+If you have any questions, please contact our customer services team.\n
+Kind Regards,\n
+Himalaya Exchange";
+
+"deposit" = "Deposit";
+"details" = "Details";
+"dismiss" = "Dismiss";
+"done" = "Done";
+
+//E
+"Email" = "Email";
+"Expires_in:" = "Expires in:";
+
+"email_field_placeholder" = "Email address of the receiver.";
+"email_verification_code" = "Email verification code";
+"enter" = "Enter";
+"exchange" = "Exchange";
+"exchange_completed" = "Exchange Completed";
+"exchange_rate" = "Exchange Rate";
+"exchange_rate_growth" = "Exchange Rate Growth";
+"exchange_to_token/currency" = "Exchange to Token";
+"expires_on" = "Expires on";
+
+//F
+"Force_update" = "There is a newer version of HPAY app available. In order to keep using HPAY you need to update HPAY App.";
+"feedback.table_view.contact_customer_service.title" = "Contact Customer Service";
+"for_the_security_of_your_transaction_and_money" = "For the security of your transaction and money";
+"forget_pin" = "Forget PIN";
+"forgot_pin?" = "Forget PIN?";
+
+//G
+"gateway_financial_report" = "Gateway Financial Report";
+"got_it" = "Got it";
+"GroupReference" = "Group Reference";
+
+//H
+"hcn_market_price_is_not_available" = "HCN MarketPrice is not available.";
+"help_and_feedback" = "Help & Feedback";
+"himlaya_exchange" = "Himalaya Exchange";
+"himlaya_pay" = "Himalaya Pay";
+"home" = "Home";
+"home.account_list.heading" = "Balance";
+"home.kycIsNotVerified.alertText" = "Please complete the verification process on Himalaya Exchange to be able to use Himalaya Pay.";
+"home.no_internet_alert.message" = "Connection fail, please retry.";
+"home.walletInfo.empty" = "Balance\nnot available";
+"hpay.isBlocked.alert.description" = "Himalaya Pay app is currently not available. Please try again later.";
+
+//I
+"INPUT_AMOUNT_FLOW_LIMIT" = "The amount is below our minimum transfer limit.";
+"INVALID_CELLPHONE" = "The number you have entered is not valid, please try again.";
+"INVALID_COIN" = "This coin is not supported on our system at this time.";
+
+"if_you_have_any_questions" = "If you have any questions, please %@";
+"insufficient_balance" = "The amount entered exceeds your balance.";
+"invalid_kyc_receiver" = "Receiver account is not valid. Receiver needs to complete the verification process on Himalaya Exchange to be able to use Himalaya Pay.";
+
+//L
+"Later" = "Later";
+"Light" = "Light";
+
+"link_copied" = "Link copied";
+"log_out" = "Log out";
+"log_out_title" = "Log out?";
+"login_again" = "Log in";
+"login_has_expired_please_login_again" = "Session expired, please log in again";
+"login_password" = "Password";
+
+//M
+"make_sure_to_keep_your_pin_safe" = "Make sure to keep your PIN safe.";
+"merchant_is_restricted" = "Merchant is restricted to use this feature";
+"message_details" = "Message Details";
+"method" = "Method";
+"min_transfer_amount" = "The minimum transfer amount is %@ %@.";
+"min_transfer_amount_xxx_or_zzz" = "Minimum transfer amount: %@ or %@.\nVerify the receiver's information before proceeding.";
+"multiple_device_login" = "Your account (%@) has login another device. If this is not your own operation, your password may be know by someone, please reset the password.";
+
+
+//N
+"No Connection" = "No Connection";
+"Not_now" = "Not now";
+
+"save" = "Save";
+"next" = "Next";
+"non_user_popup_description" = "Gift HDO/HCN to friends and family who are in the Himalaya ecosystem. \n\nExclusively available to registered users of the Himalaya Exchange.";
+"non_user_popup_title_line_1" = "Gift with";
+"non_user_popup_title_line_2" = "Himalaya Pay.";
+"note" = "Note";
+"notes" = "Notes";
+"notice" = "Notice";
+
+"nickname" = "Secure Alias";
+"nickname.title" = "My Secure Alias";
+"nickname_changed" = "Secure alias has been changed";
+"nickname.error.title_label" = "An error has occurred";
+"nickname.error.INVALID_NICKNAME" = "Invalid secure alias format";
+"nickname.error.NICKNAME_ALREADY_EXIST" = "This secure alias already exists";
+"nickname.error.NICKNAME_REQUIRED" = "Secure alias value is empty";
+"nickname.sender" = "Sender Alias";
+"nickname.receiver" = "Receiver Alias";
+
+//O
+"offline_consumption" = "Offline Consumption";
+"okay" = "OK";
+"online_payment" = "Online Consumption";
+"order_not_found" = "Order not found.";
+"order_not_found_message" = "Request link is invalid. Please check and rescan";
+"original_token/currency" = "Original Token/Currency";
+
+"order_status.pending" = "Pending";
+"order_status.complete" = "Completed";
+"order_status.cancelled" = "Cancelled";
+"order_status.expired" = "Expired";
+"order_status.failed" = "Failed";
+"order_status.unknown" = "Unknown";
+
+//P
+"Phone" = "Phone";
+"print" = "Print";
+"paid" = "Redeemed";
+"paid_amount" = "Redeemed Amount";
+"pattern_lock" = "Pattern Lock";
+"pay" = "redeem";
+"pay_merchant.available_balance_label" = "Available Balance";
+"pay_merchant.cancel_alert.message" = "This will cancel and invalidate the gift card redemption";
+"pay_merchant.cancel_alert.title" = "Are you sure you want to cancel?";
+"pay_merchant.cancel_failed_alert.reason_completed.message" = "This is a completed gift card redemption and can't be cancelled";
+"pay_merchant.cancel_failed_alert.reason_completed.title" = "Gift card redemption could not be cancelled";
+"pay_merchant.cancel_failed_alert.reason_expired.message" = "This is an expired gift card redemption and can't be cancelled";
+"pay_merchant.cancel_failed_alert.reason_expired.title" = "Gift card redemption could not be cancelled";
+"pay_merchant.cancel_failed_alert.reason_unknown.title" = "Gift card redemption could not be cancelled";
+"pay_merchant.cancel_successful_alert.message" = "You may return to merchant now";
+"pay_merchant.cancel_successful_alert.title" = "This gift card redemption has been cancelled.";
+"pay_merchant.note_label" = "Merchant Reference";
+"pay_merchant.pay_failed_alert.reason_cancelled.message" = "This order has been cancelled";
+"pay_merchant.pay_failed_alert.reason_completed.message" = "This gift card redemption has already been made.";
+"pay_merchant.pay_failed_alert.reason_completed.title" = "Gift card redemption completed";
+"pay_merchant.pay_failed_alert.reason_expired.message" = "This gift card redemption link has expired. Please start again.";
+"pay_merchant.pay_failed_alert.reason_insufficient_balance.message" = "You do not have sufficient balance to make this gift card redemption";
+"pay_merchant.status_label" = "Status";
+"pay_merchant.title" = "Redeem with Himalaya Pay";
+"pay_merchant_refresh.backend_error.title_label" = "An error has occurred.";
+"pay_merchant_refresh.network_error.description_label" = "Your device is not connected to the network, please make sure your connection is working.";
+"pay_merchant_refresh.network_error.title_label" = "No network\nconnection.";
+"pay_merchant_status.cancelled" = "Cancelled";
+"pay_merchant_status.expired" = "Expired";
+"pay_merchant_status.failed" = "Failed";
+"pay_merchant_status.pending" = "Pending";
+"pay_merchant_status.transaction_id_label" = "Transaction No.";
+"pay_merchant_status.transaction_time_label" = "Transaction Time";
+"pay_merchant_status.transaction_type_label" = "Transaction Type";
+"paymentCompletedSuccesfullDescription" = "Transaction Completed";
+"groupPaymentCompletedSuccesfullDescription" = "%ld of %ld transactions completed";
+"payment_confirmation" = "Gift card redemption Confirmation";
+"payment_crypto" = "Gift card redemption Cryptocurrency";
+"payment_failed" = "Gift card redemption failed";
+"payment_method" = "Gift card redemption Method";
+"payment_received" = "Gift Card Received";
+"phone_number_field_placeholder" = "Phone number of the receiver.";
+"pin" = "PIN";
+"pin_attempt_exceeded" = "You have exceeded maximum pin attempts. Please reset your PIN.";
+"group_send_amount_exceeded" = "Amount Exceeded: Your transaction exceeds the maximum amount allowed per user. Please lower the amount to proceed";
+"group_send_notes_value_too_long" = "Reference field in request is having more than 100 chars";
+"group_send_amount_exceeded_with_amount" = "Your transaction exceeds the maximum amount of %@ %@ allowed per user. Please lower the amount to proceed";
+"pin_cannot_be_repeated" = "PIN cannot be set with repeated digits";
+"pin_cannot_be_same_or_sequential" = "PIN digits cannot be all the same or sequential";
+"pin_cannot_be_sequencial" = "PIN cannot be set with digits in sequence";
+"pin_doesnt_match_reenter" = "PIN does not match the confirm PIN, please re-enter again.";
+"platform_commission" = "Platform Commission";
+"please_enter_login_password" = "Enter password";
+"please_enter_new_pin" = "Please enter new 6 digits PIN";
+"please_enter_pin" = "Please enter a 6-digit PIN";
+"please_enter_pin_to_verify_identity" = "Please enter PIN to verify your identity";
+"please_login" = "LOGIN";
+"position_QR_code" = "Position QR code inside the frame";
+"possible_dublicate_transaction_text" = "Looks like you made a similar transaction recently. Please confirm that you want to complete this transaction as well";
+"premium_rate" = "Premium Rate";
+"privacy_only.description" = "Our %@ has changed. By clicking %@ you are agreeing to be bound by it.";
+"privacy_policy" = "Privacy Policy";
+"privacy_policy.link" = "https://hch-hex-pub-lon-p5-compli-01.s3.eu-west-2.amazonaws.com/hpay/privacy/Himalaya+Pay+Application+Privacy+Notice+-+Final+300621.pdf";
+"product_category" = "Product Category";
+"profile" = "Profile";
+"profile.table_view.account.title" = "Account Settings";
+"purchase_amount" = "Purchase Amount";
+"purchase_token" = "Purchase Token";
+"purchased" = "Redeemed";
+"profile.interface_language" = "Language";
+"profile.change_language.alert.title" = "Please choose a language to use";
+"profile.change_language.restart.alert.title" = "Language Update";
+"profile.change_language.restart.alert.desc" = "Restart the app to apply the new language setting.";
+"profile.change_language.restart.alert.restart" = "Restart now";
+"profile.change_language.restart.alert.later" = "Later";
+"profile.change_language.restart.alert.en" = "English";
+"profile.change_language.restart.alert.zh-Hans" = "Chinese, Simplified";
+
+//Q
+"qr_code_help_text" = "Scan QR Code";
+"qr_scanner.invalid_qr.message" = "Invalid QR code, please rescan";
+"qr_scanner.invalid_qr.rescan_button.title" = "Rescan";
+"my_qr_title" = "Scan and send using QR code";
+"my_qr_share_text" = "Here is My QR Code. Please Scan it.";
+"my_qr.title" = "My QR Code";
+
+//R
+"RECEIVER_ACCOUNT_NOT_VALID" = "The account you are sending to is not valid. Please try again.";
+"RECEIVER_USERCOUNTRY_NOT_ALLOWED_HPAY" = "The account you are trying to send to is not located in a supported country.";
+"Reacquire" = "Reacquire";
+"ReceivedRequest" = "Received Request";
+"Reject" = "Reject";
+"Remind" = "Remind me on next launch";
+"Receiver_account" = "Receiver Account";
+"Receiver_name" = "Receiver Name";
+"RequestFund" = "Request Fund";
+"RequestFund.Receive.Reject" = "Are you sure you want to reject it?";
+"Request.Receive.Reject.Ack" = "This request has been rejected.";
+"RequestPayment" = "Request Payment";
+"RequestSuccessful" = "Request is ready to share";
+
+"receive" = "Receive";
+"received_amount" = "Amount to send";
+"received_amount_group" = "Total amount to send";
+"received_token" = "Received Token";
+"receiver_account" = "Receiver Account";
+"receiver_account_group" = "Receivers";
+"accounts" = "accounts";
+"receiver_name" = "Receiver Name";
+"receiver_account_suspended_message" = "Receiver account is suspended. Please contact our help desk for more information.";
+"reenter_pin" = "Re-enter PIN";
+"refresh" = "Refresh";
+"refund" = "Refund";
+"refund_amount" = "Refund %@ %@";
+"refund_time" = "Refund Time";
+"refunded" = "Refunded";
+"refund_out" = "Refund out";
+"register_login" = "Register/Login";
+"remark" = "Remark";
+"request" = "Request";
+"request_cancel" = "Request no longer valid. Cancelled by the Requestor";
+"request_expired" = "Request no longer valid. The request has expired";
+"request_complete" = "Request no longer valid. The request has been paid";
+"request_self_transfer" = "Request cannot be paid by the Requestor";
+"request_invalid_qr" = "Request is not a valid HPay QR code or Link";
+"request_time" = "Request Time";
+"request_timed_out" = "The request timed out";
+"request_too_often" = "Request too often";
+"reset" = "Reset";
+"resetPin.safeAuth.dismiss.alert.message" = "Confirm to exit and reset PIN?";
+"resetPin.safeAuth.resendButton.title" = "Resend";
+"reset_password" = "Reset password";
+"reset_pin" = "Reset PIN";
+"close_account" = "Close Account";
+"reset_pin_code_expired_error" = "Verification code expired";
+"reset_pin_code_match_error" = "Verification code doesn't match";
+"retry" = "Retry";
+"reversed" = "reversed";
+"review_details" = "Review Details";
+
+//S
+"SENDER_ACCOUNT_NOT_VALID" = "The account you are sending from is not valid. Please try again";
+"SENDER_USERCOUNTRY_NOT_ALLOWED_HPAY" = "The account you are trying to send from is not located in a supported country.";
+"SentRequest" = "Sent Request";
+"System" = "System";
+
+"save_photos" = "Save Photos";
+"scan" = "Scan";
+"screenshotTakenWarningMessage" = "Screenshot is taken. Please be careful about that screenshot doesn't contain any sensitive information.";
+"search" = "Search";
+"security_verification" = "Security Verification";
+"select_a_category" = "Select a category";
+"select_country_region" = "Select Country/Region";
+"select_currency" = "Select Token";
+"sell_token" = "Sell Token";
+"send" = "Send";
+"sender" = "sender";
+"sender_account" = "Sender Account";
+"sender_name" = "Sender Name";
+"send_to" = "Send To";
+"send_via_email_hint" = "1. Immediate & Final: Sent funds are transferred instantly and cannot be refunded. Please review before confirming.\n\n2. Verified Recipients Only: Ensure the recipient's email is registered with us to successfully send funds.";
+"send_via_phone_hint" = "1. Funds will be sent to the receiver\'s account immediately and are non-refundable.
+\n\n2. Confirm the correct country dialling code.";
+"set_a_6_digit_pin" = "Set a 6-digit PIN";
+"set_pin" = "Set PIN";
+"set_pin_error" = "Couldn't set PIN: already set";
+"share" = "Share";
+"shop_name" = "Shop Name";
+"single_transaction_limit" = "Single transaction amount cannot exceed %@";
+"sms" = "SMS";
+"sms_countdown_remaining" = "%lus Remaining";
+"sort" = "Sort";
+"state_province" = "state_province";
+
+//T
+"TRANSFER_TO_SELF" = "You are unable to transfer to your own account.";
+"Theme" = "Appearance";
+"Token" = "Token";
+"Transfer_Amount" = "Amount to Send";
+"Transfer_to" = "Transfer Type";
+"Transfer_to_HExchange" = "Transfer to Exchange";
+
+"tag" = "Tag";
+"terms_conditions.accept_button.title" = "Accept";
+"terms_conditions.description" = "By clicking %@ you are agreeing to be bound by our %@ and %@";
+"terms_conditions.link" = "https://hch-hex-pub-lon-p5-compli-01.s3.eu-west-2.amazonaws.com/hpay/privacy/CDF+(Initial+Launch)+Himalaya+Pay+Terms+and+Conditions+14062021.pdf";
+"terms_conditions.text" = "Terms & Conditions";
+"terms_only.description" = "Our %@ have changed. By clicking %@ you are agreeing to be bound by them.";
+"the_account_you_are_trying" = "The account you are trying to send is restricted to receive";
+"the_account_you_are_trying_restricted_country" = "The account you are trying to send to is not located in a supported country.";
+"to" = "To";
+"total_amount_must_be_greater_than_zero" = "Total amount must be greater than 0.";
+"touch_to_verify_fingerprint" = "Touch Home button to verify your fingerprint";
+"transaction #" = "Transaction #";
+"transactionHistory.received" = "Received";
+"transactionHistory.sent" = "Sent";
+"transactionHistory.transferred_in" = "Transferred In";
+"transactionHistory.transferred_out" = "Transferred Out";
+"transactionHistoryTitle" = "Transaction History";
+"transaction_amount" = "Transaction Amount";
+"transaction_detail" = "Transaction Detail";
+"transaction_details" = "Transaction Details";
+"transaction_history.no_data_state.description" = "You haven't made any transactions\nbetween selected days.";
+"transaction_history.no_data_state.title" = "You have\nno transactions.";
+"transaction_history.popup.title" = "Please, select a format";
+"transaction_history.too_large_range.title" = "Export Range Exceeded";
+"transaction_history.too_large_range.desc" = "Please select a maximum range of 12 months.";
+"transaction_history.no_data.title" = "No Data Available";
+"transaction_history.no_data.desc" = "Please check the selected date range and try again.";
+"transaction_history.invalid_range.title" = "Date Range Error";
+"transaction_history.invalid_range.desc" = "The 'From Date' must be earlier than the 'To Date'";
+"transaction_history.invalid_range.desc2" = "The 'To Date' must be later than the 'From Date'";
+"transaction_no" = "Transaction No.";
+"transaction_status" = "Transaction Status";
+"transaction_time" = "Transaction Time";
+"transactionsTitle" = "Transactions";
+"transfer" = "Transfer";
+"transfer.countryCodeIsNotSelectedWarning" = "Please select a country code";
+"transferDetail.transferInType.accountName" = "Sender Account";
+"transferDetail.transferInType.fullName" = "Sender Name";
+"transferDetail.transferOutType.fullName" = "Receiver Name";
+"transferInfo.isProfileNotVerifiedYet.warning" = "Unverified user.";
+"transferTitle" = "Send %@";
+"transfer_details" = "Transfer Details";
+"transfer_info.noteField_placeholder.title" = "Please enter your note here.";
+"transfer_info.noteLabel.title" = "Note (Optional)";
+"two_patterns_are_different" = "Two patterns are different";
+"type" = "Type";
+"transfer.send_to_group.group_limit_reached.title" = "Recipient Limit Reached";
+"transfer.send_to_group.group_limit_reached.desc" = "Please note that transactions can only be sent to a maximum of %@ recipients simultaneously. Adjust your recipient list to proceed";
+"transfer.send_to_group.amount_title" = "Amount to send to each receiver";
+"transfer.send_to_group.duplicate_receiver_error" = "This user is already on the list";
+"transfer.send_to_group.button_title" = "Add one more";
+"transfer.send_to_group.hint" = "You can send funds to multiple recipients at the same time. Use the button below to add them all";
+"transfer.send_to_group.transfer_info.list_title" = "You are sending %@ %@ to %ld accounts:";
+
+"transaction_history.popup.export_type" = "Export";
+"transaction_history.popup.soa_type" = "Statement of account";
+"transaction_history.popup.select_type_title" = "Please, select the type of export";
+"transaction_history.soa.request_in_progress.title" = "Your previous request is still processing";
+"transaction_history.soa.request_in_progress.desc" = "Please wait until it is completed before submitting another request. ";
+"transaction_history.soa.threshold.title" = "You have reached the daily limit of requests";
+"transaction_history.soa.threshold.desc" = "Please try again tomorrow";
+"transaction_history.soa.success_title" = "Request has been accepted";
+"transaction_history.soa.success_desc" = "Your statement will be delivered to your email in a couple of minutes";
+"transaction_history.soa.error_title" = "An error occurred during your request";
+"transaction_history.soa.error_desc" = "Please check the dates and try again";
+
+//U
+"USER_WALLET_NOTEXISTS" = "This user wallet does not exist.";
+"Unexpected error has occurred." = "Unexpected error has occurred.";
+"UnknownData" = "Unknown data";
+"Update" = "Update";
+"Update_available" = "There is a newer version of HPAY app available. Would you like to update now?";
+
+"unable_to_login" = "Account exception, unable to login,\nplease contact our customer service.";
+"unexpected_error" = "An unexpected error occurred on the server. Please retry again.";
+"unverified_user_warning" = "You haven’t verified your personal information yet, please contact our customer service to retrieve your PIN";
+"updated_seconds_ago" = "Updated a few seconds ago";
+"user.isBlocked.alert.description" = "Your account has been blocked. Please contact our help desk for more information.";
+"user.isCountryNotAllowed.alert.description" = "Himalaya Pay app is currently not available in your country or region.";
+"user_account_suspended_message" = "Your account has been suspended. Please contact our help desk for more information";
+"user_agreement" = "User Agreement";
+"using_on_multiple_device" = "You are using HPay on a new device, \nplease go through the security verification.\n\n";
+
+//V
+"View_QR_Code" = "View QR Code";
+"vendor_name" = "Vendor Name";
+"verification_code" = "Verification code";
+"verification_code_rule" = "Verification code must be at least 6 digits";
+"verified" = "Verified";
+"verify_face_id" = "Verify face ID";
+"verify_pin" = "Verify PIN";
+"verify_pin_error" = "Invalid PIN, please try again.";
+"view" = "View";
+"visitor" = "Visitor";
+
+//W
+"Write a comment" = "Write a comment";
+
+"want_to_quit" = "Want to quit this operation?";
+"withdraw" = "Withdraw";
+"withdrawal" = "Withdrawal";
+"withdrawal_details" = "Withdrawal Details";
+"withdrawal_request_submitted" = "Withdrawal request submitted.\nPlease wait for the transaction confirmation process to be completed.";
+
+//Y
+"your_account_is_not_located" = "Your account is not located in a supported country for this feature.";
+
+
+"notification_center.screen_title" = "Notification center";
+"notification_center.no_data_state.title" = "No notifications";
+"notification_center.no_data_state.description" = "New messages will appear here";

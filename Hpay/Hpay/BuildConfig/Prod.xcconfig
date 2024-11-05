@@ -1,0 +1,22 @@
+//
+//  Mock.xcconfig
+//  Hpay
+//
+//  Created by Ugur Bozkurt on 23/08/2021.
+//  Copyright © 2021 Himalaya. All rights reserved.
+//
+
+#include "Base.xcconfig"
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+
+HPAY_API_BASE_URL = https://hpayapi.pay888.id/
+MERCHANT_API_BASE_URL = https://hpaymerchant.pay888.id/
+SSO_API_BASE_URL = https://sso.pay888.id/
+SSO_API_EXTRA_BASE_URL = https://sso.pay888.id
+
+AUTH_REDIRECT_URI = $(PRODUCT_BUNDLE_IDENTIFIER):/$(AUTH_REDIRECT_URI)
+AUTH_ISSUER = $(SSO_API_BASE_URL)
+AUTH_SCOPES = HpayApi IdentityServerApi HpayMerchantApi offline_access
+
+SHOW_ENVIRONMENT_LABEL = false

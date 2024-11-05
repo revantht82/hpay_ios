@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileTableViewHeader">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-w8-rrw" customClass="ProfileImageView">
+                    <rect key="frame" x="20" y="13" width="72" height="72"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="PLF-Ag-X9y"/>
+                        <constraint firstAttribute="height" constant="72" id="ecM-Yz-aq0"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="yaX-dB-kck">
+                    <rect key="frame" x="104" y="19" width="221" height="66"/>
+                    <subviews>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User_1234567890" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kal-sY-oyz">
+                            <rect key="frame" x="0.0" y="0.0" width="221" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" +86 *******1200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ6-GO-6D5">
+                            <rect key="frame" x="0.0" y="0.0" width="221" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.53863441780821919" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" +86 *******1200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQD-2Z-dRO">
+                            <rect key="frame" x="0.0" y="0.0" width="221" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.53863441779999999" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lc-XD-k6c">
+                            <rect key="frame" x="0.0" y="0.0" width="221" height="66"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="注册/登录">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RLR-or-MbH">
+                    <rect key="frame" x="333" y="37" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="qr-code-scan-icon"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.078431372549019607" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yaX-dB-kck" firstAttribute="top" secondItem="G4c-w8-rrw" secondAttribute="top" constant="6" id="9rJ-vQ-DVm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yaX-dB-kck" secondAttribute="trailing" constant="50" id="IJc-lj-7px"/>
+                <constraint firstItem="yaX-dB-kck" firstAttribute="leading" secondItem="G4c-w8-rrw" secondAttribute="trailing" constant="12" id="Qo6-p2-bOG"/>
+                <constraint firstItem="yaX-dB-kck" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="G4c-w8-rrw" secondAttribute="bottom" id="USX-9f-Moj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="G4c-w8-rrw" secondAttribute="bottom" constant="35" id="nEh-eV-smK"/>
+                <constraint firstItem="G4c-w8-rrw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="qB7-zW-Awn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="QRCodeBtn" destination="RLR-or-MbH" id="mr5-fJ-p8U"/>
+                <outlet property="hid" destination="SQD-2Z-dRO" id="tSr-HD-Uw9"/>
+                <outlet property="nameBtn" destination="0Lc-XD-k6c" id="yrw-d9-qzJ"/>
+                <outlet property="nameLabel" destination="kal-sY-oyz" id="MbO-jm-O4W"/>
+                <outlet property="phoneLabel" destination="cQ6-GO-6D5" id="xIQ-PA-h2b"/>
+                <outlet property="profileImageView" destination="G4c-w8-rrw" id="4py-hm-WRo"/>
+            </connections>
+            <point key="canvasLocation" x="-191.19999999999999" y="-4.497751124437781"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qr-code-scan-icon" width="122.61000061035156" height="122.87999725341797"/>
+    </resources>
+</document>

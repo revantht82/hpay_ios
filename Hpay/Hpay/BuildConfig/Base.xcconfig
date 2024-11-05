@@ -1,0 +1,14 @@
+//
+//  Mock.xcconfig
+//  Hpay
+//
+//  Created by Ugur Bozkurt on 23/08/2021.
+//  Copyright © 2021 Himalaya. All rights reserved.
+//
+
+AUTH_CLIENT_ID = HpayId
+AUTH_REDIRECT_URI = oauth2redirect
+PRODUCT_BUNDLE_IDENTIFIER = exchange.himalaya.pay
+PRODUCT_DISPLAY_NAME = Pay
+SHOW_ENVIRONMENT_LABEL = true
+GOOGLESERVICE_INFO_PLIST_FILENAME = GoogleService-Info
