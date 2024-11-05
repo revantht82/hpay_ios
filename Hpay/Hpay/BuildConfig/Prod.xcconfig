@@ -10,9 +10,9 @@
 
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
 
-HPAY_API_BASE_URL = https://hpayapi.pay888.id/
-MERCHANT_API_BASE_URL = https://hpaymerchant.pay888.id/
-SSO_API_BASE_URL = https://sso.pay888.id/
+HPAY_API_BASE_URL = https://hpayapi.pay888.id
+MERCHANT_API_BASE_URL = https://hpaymerchant.pay888.id
+SSO_API_BASE_URL = https://sso.pay888.id
 SSO_API_EXTRA_BASE_URL = https://sso.pay888.id
 
 AUTH_REDIRECT_URI = $(PRODUCT_BUNDLE_IDENTIFIER):/$(AUTH_REDIRECT_URI)
